@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" id="loc">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Itinerary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>Explore Popular Locations</h2>
+    <button id="load-places-btn">Find locations</button>
+    <div id="places-section" style="display:none">
+        <div class="places-container">
+            <h2 id="ppl">Popular Places</h2>
+            <ul id="places-to-add"></ul>
+        </div>
+        <div class="itinerary-container">
+            <h2 id="iti">Your Itinerary</h2>
+            <div id="itinerary"></div>
+            <button id="add-day-btn">Add Day</button>
+            <button id="download-btn">Download PDF</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* style.css */
+
+#ind {
+  background: url('img/bg2.jpg');
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  background: url('img/bg2.jpg');
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 100px;
+  bottom: 80px;
+}
+
+.first {
+  text-align: center;
+  color: black;
+}
+
+.first p {
+  position: relative;
+  bottom: 50px;
+  font-size: 20px;
+  color: black;
+}
+
+#decor1 {
+  width: 370px;
+  height: 80px;
+  background-color: black;
+  position: relative;
+  left: 580px;
+  top: 60px;
+  border-radius: 50px;
+}
+
+.drop {
+  position: relative;
+  left: 670px;
+  font-size: 20px;
+  bottom: 10px;
+}
+
+.drop label {
+  position: relative;
+  right: 50px;
+  color: white;
+}
+
+#city-dropdown {
+  border-radius: 50px;
+  border-color: white;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+#load-places-btn {
+  border-radius: 50px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  position: relative;
+  left: 610px;
+  height: 70px;
+  width: 300px;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+select,
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.places-container,
+.itinerary-container {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 440px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#places-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#places-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.itinerary-container {
+  margin-top: 10px;
+}
